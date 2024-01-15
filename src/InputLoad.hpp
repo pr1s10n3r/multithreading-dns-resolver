@@ -12,7 +12,7 @@ private:
 
 public:
     InputLoad(const std::string &path);
-    ~InputLoad();
+    ~InputLoad() = default;
 
     size_t size();
     bool isEmpty();

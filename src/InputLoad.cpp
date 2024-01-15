@@ -38,10 +38,6 @@ InputLoad::InputLoad(const std::string &path)
     }
 }
 
-InputLoad::~InputLoad()
-{
-}
-
 size_t InputLoad::size()
 {
     const std::lock_guard<std::mutex> lock(_mutex);
