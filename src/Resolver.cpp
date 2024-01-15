@@ -13,10 +13,6 @@ Resolver::Resolver(InputLoad &inputLoad) : _inputLoad(inputLoad)
 {
 }
 
-Resolver::~Resolver()
-{
-}
-
 void Resolver::run()
 {
     Poco::Logger &logger = Poco::Logger::get("Resolver");

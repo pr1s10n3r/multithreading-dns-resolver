@@ -10,7 +10,8 @@ private:
 
 public:
     Resolver(InputLoad &inputLoad);
-    ~Resolver();
+    ~Resolver() = default;
 
-    virtual void run();
+    virtual void
+    run();
 };
