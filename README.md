@@ -14,6 +14,7 @@ $ cmake --build . --config Release
 ```
 
 > **PowerShell Note:** Wrap "conan_toolchain.cmake" with quotes.
+
 > **Unix Note:** Add `-DCMAKE_BUILD_TYPE=Debug|Release` flag if you're build for a POSIX system.
 
 ### Generate Compile Commands File
