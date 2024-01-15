@@ -1,3 +1,14 @@
+## Usage
+
+You need a directory full of files, within each file there must be domains separated by a line.
+
+```shell
+# Use `multithreading-dns-resolver -h` for more options.
+
+# Example: Launch multithreading-dns-resolver with four threads.
+$ multithreading-dns-resolver -i /path/to/directory -t 4
+```
+
 ## Build
 
 ```shell
